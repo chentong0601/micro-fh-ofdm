@@ -1,0 +1,10 @@
+method,L_h_or_cap,r_cand,bound_type
+PASH-cap,0.15,0.150000,≤ p_max = 0.15
+MCSH-L1,1,0.142857,"= S/(N-L_h*S), unbounded growth"
+MCSH-L2,2,0.166667,"= S/(N-L_h*S), unbounded growth"
+MCSH-L3,3,0.200000,"= S/(N-L_h*S), unbounded growth"
+MCSH-L4,4,0.250000,"= S/(N-L_h*S), unbounded growth"
+MCSH-L5,5,0.333333,"= S/(N-L_h*S), unbounded growth"
+MCSH-L6,6,0.500000,"= S/(N-L_h*S), unbounded growth"
+MCSH-L7,7,1.000000,"= S/(N-L_h*S), unbounded growth"
+MCSH-L8,8,nan,"= S/(N-L_h*S), unbounded growth"

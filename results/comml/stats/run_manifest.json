@@ -1,0 +1,90 @@
+{
+  "profile": "comml-stats",
+  "finished_at": "2026-08-03T20:00:43.195091",
+  "command": "/Users/chentong/micro_fh_ofdm/redesign/advanced_experiment.py --profile comml-stats",
+  "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "git": {
+    "commit": "ba4f7f8e05e8572f8a0a21e4d507037fff85bbb3",
+    "dirty": true
+  },
+  "config": {
+    "n_phys": 512,
+    "n_active": 64,
+    "n_sym": 32,
+    "snr_db": 12.0,
+    "jsr_db": 5.0,
+    "max_delay": 12,
+    "seed": 20260607
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "n_frames": {
+    "min": 2000,
+    "max": 5000,
+    "target_frame_errors": 100
+  },
+  "causal_attack": {
+    "state_lifecycle": "continuous per method-threat run",
+    "action_information": "past lag scores and past post-slot collision feedback only",
+    "feedback": "exact normalized collision count observed after each slot",
+    "receiver_fairness": "one jammer trajectory generated per frame and shared by receivers",
+    "epsilon": 0.1,
+    "ema_alpha": 0.2
+  },
+  "source_files": {
+    "redesign/advanced_experiment.py": {
+      "sha256": "28fca4f81359b2f915449975059ed412e37189e6c71256e5f03fa8dde2328634"
+    },
+    "redesign/fair_grid_sim.py": {
+      "sha256": "e28c792aebe74174e2f37d5693d0728f48cf09ba3e9254ece1b92b6cec05eba2"
+    },
+    "redesign/innovation_sim.py": {
+      "sha256": "8825b6aec1aef92058ae18a537e4af92877be688cd260e3e78cfdc90f62d835c"
+    }
+  },
+  "output_files": {
+    "structural_summary.csv": {
+      "sha256": "69cdd8b0d14375f536ff9591842ff517b05193e4c8ae8ebcce7dd8332df70fff",
+      "size_bytes": 4760
+    },
+    "coded_summary.csv": {
+      "sha256": "a222aa75a3f2437fc021939d0dc66c9363ac5dc8ddbc405496c24ca677883d2b",
+      "size_bytes": 10393
+    },
+    "config.json": {
+      "sha256": "c94cdb4fece88f577313121dc264fcfdbf6f3b5afe0a1a32990fa48fe9ba6b60",
+      "size_bytes": 2085
+    }
+  }
+}

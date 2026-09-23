@@ -1,0 +1,7 @@
+{
+  "script": "redesign/validate_pash_bounds.py",
+  "source_sha256": "665675b090ab7606f83b57c5f8b01e92ae73f7c5f3315c1277e9b538ea48f5db",
+  "timestamp": "2026-07-29T20:58:31",
+  "n_symbols": 5000,
+  "n_seeds": 5
+}

@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# 实验临时输出（smoke 结果，不进版本库）
+# 注意：output/ 不在此忽略 —— output/pdf/ 的交付 PDF 是版本库内容
+tmp/
+
+# LaTeX 中间产物
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# 编辑器 / 系统
+.DS_Store
+.vscode/
+*.code-workspace
+.claude/
+.mavis/

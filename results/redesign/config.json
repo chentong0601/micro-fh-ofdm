@@ -1,0 +1,19 @@
+{
+  "n_phys": 512,
+  "n_active": 64,
+  "n_sym": 8,
+  "jsr_db": 5.0,
+  "pbj_rho": 0.25,
+  "sweep_rho": 0.125,
+  "sweep_step": 24,
+  "detector_k": 5.0,
+  "seed": 20260607,
+  "n_frames_blind": 2000,
+  "n_frames_coded": 300,
+  "snr_values": [
+    4.0,
+    8.0,
+    12.0,
+    16.0
+  ]
+}

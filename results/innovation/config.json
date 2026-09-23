@@ -1,0 +1,18 @@
+{
+  "profile": "paper",
+  "base": {
+    "n_phys": 512,
+    "n_active": 64,
+    "n_sym": 8,
+    "snr_db": 12.0,
+    "jsr_db": 5.0,
+    "pbj_rho": 0.25,
+    "sweep_rho": 0.125,
+    "sweep_step": 24,
+    "channel": "awgn",
+    "csi_nmse_db": -300.0,
+    "sync_error_prob": 0.0,
+    "jammer_est_error_db": 0.0,
+    "seed": 20260607
+  }
+}

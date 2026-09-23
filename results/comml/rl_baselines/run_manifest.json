@@ -1,0 +1,8 @@
+{
+  "script": "redesign/epsgreedy_baseline.py",
+  "source_sha256": "cae50a9b9469cd16881439d4ea775eebb44eb4a80c45ddb2b25fd20dc1c3a289",
+  "timestamp": "2026-07-30T15:02:15",
+  "profile": "paper",
+  "n_configs": 5,
+  "n_threats": 4
+}

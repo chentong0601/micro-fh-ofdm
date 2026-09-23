@@ -1,0 +1,91 @@
+{
+  "profile": "comml-stats",
+  "config": {
+    "n_phys": 512,
+    "n_active": 64,
+    "n_sym": 32,
+    "snr_db": 9.0,
+    "jsr_db": 5.0,
+    "max_delay": 6,
+    "seed": 20260607
+  },
+  "methods": {
+    "random": {
+      "kind": "random",
+      "label": "Random"
+    },
+    "mcsh_l1": {
+      "kind": "mcsh",
+      "memory": 1,
+      "label": "MCSH $L_h=1$"
+    },
+    "mcsh_l2": {
+      "kind": "mcsh",
+      "memory": 2,
+      "label": "MCSH $L_h=2$"
+    },
+    "mcsh_l4": {
+      "kind": "mcsh",
+      "memory": 4,
+      "label": "MCSH $L_h=4$"
+    },
+    "mcsh_l6": {
+      "kind": "mcsh",
+      "memory": 6,
+      "label": "MCSH $L_h=6$"
+    },
+    "bcd": {
+      "kind": "bcd",
+      "label": "Block-Cyclic Det."
+    },
+    "sbs": {
+      "kind": "sbs",
+      "shift": 3,
+      "label": "Staggered Block-Shift"
+    },
+    "pash_a08": {
+      "kind": "pash",
+      "memory": 6,
+      "alpha": 0.8,
+      "floor": 0.25,
+      "label": "PASH $\\alpha=0.8$"
+    },
+    "pash_a14": {
+      "kind": "pash",
+      "memory": 6,
+      "alpha": 1.4,
+      "floor": 0.2,
+      "label": "PASH $\\alpha=1.4$"
+    },
+    "pash_c15": {
+      "kind": "pash_cap",
+      "memory": 6,
+      "alpha": 1.4,
+      "floor": 0.2,
+      "cap": 0.15,
+      "label": "PASH-cap $p_{\\max}=0.15$"
+    },
+    "pash_c14": {
+      "kind": "pash_cap",
+      "memory": 6,
+      "alpha": 1.4,
+      "floor": 0.2,
+      "cap": 0.14,
+      "label": "PASH-cap $p_{\\max}=0.14$"
+    }
+  },
+  "coded_methods": [
+    "random",
+    "mcsh_l2",
+    "pash_c15"
+  ],
+  "threats": [
+    "fixed_d1",
+    "fixed_d3",
+    "causal_adaptive_lag",
+    "candidate_aware"
+  ],
+  "receivers": [
+    "mixllr"
+  ]
+}

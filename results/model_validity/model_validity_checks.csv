@@ -1,0 +1,13 @@
+check,value,expected,tolerance,passed
+random short-delay collision equals active load,0.12493894331879246,0.125,+/- 0.003,True
+random candidate-aware collision equals active load,0.12517312500000002,0.125,+/- 0.003,True
+MCSH Lh=2 lag-1 collision is zero,0.0,0,<= 1e-12,True
+MCSH Lh=2 lag-2 collision is zero,0.0,0,<= 1e-12,True
+MCSH Lh=2 worst lag is just outside memory,3.0,3,exact lag index,True
+MCSH Lh=2 boundary collision matches closed form,0.16680862684277237,0.166667,+/- 0.002,True
+MCSH Lh=6 worst lag is just outside memory,7.0,7,exact lag index,True
+MCSH Lh=6 exposes concentrated lag spike,0.4998248589692235,> 0.45,lower bound,True
+MCSH Lh=6 boundary collision matches closed form,0.4998248589692235,0.500000,+/- 0.002,True
+PASH-cap reduces worst structural risk vs MCSH Lh=2,0.1499872916666667,< 0.167,strict inequality,True
+PASH-cap sacrifices zero short-delay avoidance,0.09832351574356488,> 0,strict inequality,True
+PASH-cap candidate-aware collision respects p_max,0.1499872916666667,<= 0.15,0.002 Monte Carlo tolerance,True

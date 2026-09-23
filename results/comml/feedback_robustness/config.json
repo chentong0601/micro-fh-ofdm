@@ -1,0 +1,59 @@
+{
+  "profile": "stats",
+  "config": {
+    "n_phys": 512,
+    "n_active": 64,
+    "n_sym": 32,
+    "snr_db": 12.0,
+    "jsr_db": 5.0,
+    "max_delay": 12,
+    "seed": 20260607
+  },
+  "methods": [
+    "random",
+    "mcsh_l2",
+    "pash_c15"
+  ],
+  "conditions": [
+    [
+      "exact",
+      0.0,
+      0
+    ],
+    [
+      "corrupt_10",
+      0.1,
+      0
+    ],
+    [
+      "corrupt_20",
+      0.2,
+      0
+    ],
+    [
+      "corrupt_30",
+      0.3,
+      0
+    ],
+    [
+      "delay_1",
+      0.0,
+      1
+    ],
+    [
+      "delay_2",
+      0.0,
+      2
+    ],
+    [
+      "delay_4",
+      0.0,
+      4
+    ]
+  ],
+  "frames": {
+    "min": 1000,
+    "max": 3000,
+    "target_frame_errors": 100
+  }
+}

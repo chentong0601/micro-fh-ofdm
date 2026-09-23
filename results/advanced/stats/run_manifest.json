@@ -1,0 +1,63 @@
+{
+  "profile": "stats",
+  "started_at": "2026-06-10T02:07:39.123352",
+  "command": "/Users/chentong/micro_fh_ofdm/redesign/advanced_experiment.py --profile stats",
+  "python_version": "3.9.6 (default, Apr  7 2026, 02:38:40) \n[Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "config": {
+    "n_phys": 512,
+    "n_active": 64,
+    "n_sym": 32,
+    "snr_db": 12.0,
+    "jsr_db": 5.0,
+    "max_delay": 6,
+    "seed": 20260607
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "n_frames": 2000,
+  "output_files": {
+    "structural_summary.csv": {
+      "sha256": "f131b13cc2d5c964a1b969aba9491996346ea1cb781fc4f43051df65a421bff6",
+      "size_bytes": 3668
+    },
+    "coded_summary.csv": {
+      "sha256": "874d66f2978b24846737f00058d21b0ec5bd1de9e82aa395c54e20e78a618973",
+      "size_bytes": 70055
+    },
+    "config.json": {
+      "sha256": "5abebe9e6849244d8830975fe98e4fae5d877e106b6a29638bf68b68ef77034e",
+      "size_bytes": 1452
+    }
+  }
+}
